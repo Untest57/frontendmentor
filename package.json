@@ -41,5 +41,8 @@
       "stylelint --fix",
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "reset-css": "^5.0.2"
   }
 }
