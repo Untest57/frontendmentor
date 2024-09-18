@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "prepare": "husky"
+    "prepare": "husky",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "Untest57",
@@ -16,21 +17,28 @@
     "globals": "^15.9.0",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
+    "postcss-html": "^1.7.0",
     "prettier": "3.3.3",
     "stylelint": "^16.9.0",
+    "stylelint-config-html": "^1.1.0",
     "stylelint-config-recess-order": "^5.1.0",
     "stylelint-config-standard": "^36.0.1"
   },
   "lint-staged": {
-    "**/*.{html,js,cjs,mjs,ts,tsx}": [
+    "**/*.{js,cjs,mjs,ts,tsx}": [
       "eslint",
       "prettier --write"
     ],
     "**/*.{json}": [
       "prettier --write"
     ],
+    "**/*.{html}": [
+      "eslint",
+      "stylelint --fix",
+      "prettier --write"
+    ],
     "**/*.{css}": [
-      "stylelint",
+      "stylelint --fix",
       "prettier --write"
     ]
   }
