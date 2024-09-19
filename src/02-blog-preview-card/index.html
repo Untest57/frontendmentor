@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../../node_modules/reset-css/reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <article class="card">
+        <img
+          class="img"
+          src="./assets/images/illustration-article.svg"
+          alt="illustration"
+        />
+        <div class="content text-responsive">
+          <ul class="category text-preset-3-bold">
+            <li><a class="category-item" href="#learning">Learning</a></li>
+          </ul>
+          <div class="published-time text-preset-3">
+            Published
+            <time datetime="2023-12-21">21 Dec 2023</time>
+          </div>
+          <h2 class="h">
+            <a class="link text-preset-1" href="#article"
+              >HTML & CSS foundations</a
+            >
+          </h2>
+          <p class="detail text-preset-2">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+        </div>
+        <footer>
+          <a class="author text-preset-3-bold" href="#greg_hooper"
+            ><img
+              class="avatar"
+              src="./assets/images/image-avatar.webp"
+              alt="Avatar"
+            />Greg Hooper
+          </a>
+        </footer>
+      </article>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/Untest57">Untest57</a>.
+    </footer>
+  </body>
+</html>
