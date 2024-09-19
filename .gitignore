@@ -224,3 +224,4 @@ dist
 .pnp.*
 
 *figma/
+.vercel

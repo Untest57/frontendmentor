@@ -8,6 +8,7 @@
             <path value="file://$PROJECT_DIR$/01-qr-code-component" />
             <path value="file://$PROJECT_DIR$/src" />
             <path value="file://$PROJECT_DIR$/src/01-qr-code-component" />
+            <path value="file://$PROJECT_DIR$/.husky" />
           </resourceRoots>
         </entryData>
       </entry>
