@@ -2,6 +2,7 @@
 
 This is a solution to
 the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
+
 Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
@@ -12,9 +13,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
-    - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -24,8 +23,8 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Untest57/frontendmentor/tree/main/src/01-qr-code-component)
+- Live Site URL: [Add live site URL here](https://frontendmentor-three-iota.vercel.app/01-qr-code-component/)
 
 ## My process
 
@@ -43,6 +42,7 @@ Sometimes the actual size of the box does not match the calculated size, so a sh
 ```css
 .attribution {
   height: 1.05em;
+
   ...
 }
 ```
@@ -50,11 +50,3 @@ Sometimes the actual size of the box does not match the calculated size, so a sh
 ## Author
 
 - Frontend Mentor - [@Untest57](https://www.frontendmentor.io/profile/Untest57)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got
-some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel
-free to delete this section entirely.**
