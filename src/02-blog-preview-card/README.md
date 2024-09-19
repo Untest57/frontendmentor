@@ -3,11 +3,9 @@
 This is a solution to
 the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).
 
-
 ## Table of contents
 
 - [Overview](#overview)
-    - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
     - [Links](#links)
 - [My process](#my-process)
@@ -18,24 +16,14 @@ the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
-- See hover and focus states for all interactive elements on the page
-
-Etc:
-
-- Add '<a>' to tags and author
-
 ### Screenshot
 
 ![](./screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/blog-preview-card---no-media-query-l2YT6n3CLq)
+- [Live Site](https://frontendmentor-three-iota.vercel.app/02-blog-preview-card/)
 
 ## My process
 

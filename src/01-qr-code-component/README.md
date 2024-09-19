@@ -23,8 +23,8 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Untest57/frontendmentor/tree/main/src/01-qr-code-component)
-- Live Site URL: [Add live site URL here](https://frontendmentor-three-iota.vercel.app/01-qr-code-component/)
+- [Solution](https://www.frontendmentor.io/solutions/qr-code-component-Nhcpk7WpIk)
+- [Live Site](https://frontendmentor-three-iota.vercel.app/01-qr-code-component/)
 
 ## My process
 
