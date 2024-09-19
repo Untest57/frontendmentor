@@ -1,15 +1,16 @@
 # Frontend Mentor - Social links profile solution
 
-This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to
+the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ).
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -20,8 +21,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
-- [Live Site](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/social-links-profile-44auFMedI_)
+- [Live Site](https://frontendmentor-three-iota.vercel.app/03-social-links-profile/)
 
 ## My process
 
@@ -39,8 +40,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
   ```
 
-
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Untest57](https://www.frontendmentor.io/profile/Untest57)
 
