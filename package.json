@@ -15,6 +15,7 @@
     "reset-css": "^5.0.2"
   },
   "devDependencies": {
+    "@eslint/compat": "^1.1.1",
     "@eslint/js": "^9.10.0",
     "@html-eslint/eslint-plugin": "^0.27.0",
     "@html-eslint/parser": "^0.27.0",

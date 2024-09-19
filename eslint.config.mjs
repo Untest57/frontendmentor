@@ -1,9 +1,12 @@
+import { resolve } from 'node:path';
+import { includeIgnoreFile } from '@eslint/compat';
 import globals from 'globals';
 import pluginJs from '@eslint/js';
 import html from '@html-eslint/eslint-plugin';
 import eslintConfigPrettier from 'eslint-config-prettier';
 
 export default [
+  includeIgnoreFile(resolve(import.meta.dirname, '.gitignore')),
   { languageOptions: { globals: globals.browser } },
   pluginJs.configs.recommended,
   {
