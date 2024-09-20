@@ -22,7 +22,7 @@ the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/cha
 
 ### Links
 
-- [Solution](https://www.frontendmentor.io/solutions/social-links-profile-44auFMedI_)
+- [Solution](https://www.frontendmentor.io/solutions/recipe-page-P0NsrUg8RR)
 - [Live Site](https://frontendmentor-three-iota.vercel.app/04-recipe-page/)
 
 ## My process
@@ -39,7 +39,10 @@ the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/cha
 
 - List Marker Styling
 - Using `cqw`
-
+- I learned the meaning of `percentage` in `box-shadow` and `border-radius`.
+  - Does not work in `box-shadow`
+  - In `border-radius`, the percentage of the box height on each axis.
+  
 ### Useful resources
 
 - [List Marker Gap](https://css-tricks.com/everything-you-need-to-know-about-the-gap-after-the-list-marker/) - You can
