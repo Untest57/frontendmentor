@@ -12,6 +12,13 @@ export default defineConfig({
       '/node_modules': resolve(import.meta.dirname, 'node_modules'),
     },
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: 'modern-compiler',
+      },
+    },
+  },
   build: {
     outDir: '../dist',
     emptyOutDir: true,

@@ -11,6 +11,7 @@
             <path value="file://$PROJECT_DIR$/.husky" />
             <path value="file://$PROJECT_DIR$/src/02-blog-preview-card" />
             <path value="file://$PROJECT_DIR$/src/03-social-links-profile" />
+            <path value="file://$PROJECT_DIR$/src/04-recipe-page" />
           </resourceRoots>
         </entryData>
       </entry>
