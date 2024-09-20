@@ -190,6 +190,7 @@ body > footer {
 .recipe-container .nutrition {
   @extend %list-section;
 
+  gap: 0;
   margin-bottom: 0;
 
   @include font-outfit;

@@ -22,8 +22,8 @@ the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/cha
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/social-links-profile-44auFMedI_)
+- [Live Site](https://frontendmentor-three-iota.vercel.app/04-recipe-page/)
 
 ## My process
 
