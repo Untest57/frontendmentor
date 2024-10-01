@@ -3,7 +3,8 @@ export default {
   extends: [
     'stylelint-config-standard-scss',
     'stylelint-config-html/html',
-    'stylelint-config-prettier-scss',
-    'stylelint-config-recess-order',
+    'stylelint-config-two-dash-bem',
+    'stylelint-config-clean-order',
+    'stylelint-config-clean-order/error',
   ],
 };

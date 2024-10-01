@@ -22,8 +22,4 @@
       </profile-state>
     </entry>
   </component>
-  <component name="TypeScriptCompiler">
-    <option name="nodeInterpreterTextField" value="$USER_HOME$/.bun/bin/bun" />
-    <option name="typeScriptCompilerParams" value="--locale ko" />
-  </component>
 </project>
