@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://www.frontendmentor.io/solutions/recipe-page-P0NsrUg8RR)
+- [Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-W2CYfMcotd)
 - [Live Site](https://frontendmentor-three-iota.vercel.app/05-product-preview-card-component/)
 
 ## My process
