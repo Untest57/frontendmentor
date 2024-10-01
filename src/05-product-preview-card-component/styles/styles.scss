@@ -90,7 +90,7 @@ body > footer {
     .card__name {
       margin-top: fonts.rem(12px);
 
-      @include fonts.montserrat(32px, 700);
+      @include fonts.fraunces(32px);
 
       line-height: 1;
       color: colors.$neutral-very-dark-blue;
@@ -106,6 +106,7 @@ body > footer {
       @include fonts.montserrat(14px, 500);
 
       line-height: 1.643;
+      color: colors.$neutral-dark-grayish-blue;
       word-break: break-word;
 
       @include media.md {
