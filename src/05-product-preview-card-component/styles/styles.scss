@@ -2,8 +2,8 @@
 @use './fonts';
 @use './media';
 
-html {
-  font-size: fonts.$base-font-size;
+:root {
+  font-size: 14px;
 }
 
 body {
