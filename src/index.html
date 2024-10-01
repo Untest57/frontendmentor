@@ -4,5 +4,15 @@
     <meta charset="UTF-8" />
     <title>frontendmentor.io 모음</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>frontendmentor.io 모음</h1>
+    </header>
+    <main>
+      <% for(let i=0; i < subPages.length; i++) { %>
+      <article><a href="<%= subPages[i] %>/"><%= subPages[i] %></a></article>
+      <% } %>
+    </main>
+    <footer>Created by Untest57</footer>
+  </body>
 </html>

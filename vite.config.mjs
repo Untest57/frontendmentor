@@ -1,9 +1,19 @@
-import { extname, relative, resolve } from 'path';
+import { dirname, extname, relative, resolve } from 'path';
 import { fileURLToPath } from 'node:url';
 import FastGlob from 'fast-glob';
 import { defineConfig } from 'vite';
 
+import { ViteEjsPlugin } from 'vite-plugin-ejs';
+
 export default defineConfig({
+  plugins: [
+    ViteEjsPlugin({
+      subPages: FastGlob.globSync('src/**/index.html')
+        .map((file) => relative('src', dirname(file)))
+        .filter((subPage) => subPage)
+        .reverse(),
+    }),
+  ],
   appType: 'mpa',
   root: 'src/',
   resolve: {
@@ -24,7 +34,7 @@ export default defineConfig({
     emptyOutDir: true,
     rollupOptions: {
       input: Object.fromEntries(
-        FastGlob.globSync('src/**/*.html').map((file) => [
+        FastGlob.globSync('src/**/index.html').map((file) => [
           relative('src', file.slice(0, file.length - extname(file).length)),
           fileURLToPath(new URL(file, import.meta.url)),
         ]),
