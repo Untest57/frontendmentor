@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/four-card-feature-section-solution-Gn8uHYA48O)
+- [Live Site](https://frontendmentor-three-iota.vercel.app/06-four-card-feature-section/)
 
 ## My process
 
