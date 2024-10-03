@@ -163,7 +163,7 @@ body {
   .card__title {
     flex: 0 0 auto;
 
-    @include fonts.poppins(20px, 400);
+    @include fonts.poppins(20px, 600);
 
     color: colors.$neutral-very-dark-blue;
     letter-spacing: 0.017em;
