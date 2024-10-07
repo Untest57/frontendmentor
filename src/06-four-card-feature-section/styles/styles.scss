@@ -15,7 +15,6 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  align-items: center;
 
   width: 82.933dvw;
   min-width: 320px;
@@ -60,6 +59,7 @@ body {
     }
 
     .header__sub-title {
+      display: block;
       font-weight: 200;
     }
   }
@@ -132,6 +132,7 @@ body {
     @include set-colors(colors.$primary-cyan);
 
     @include media.lg {
+      grid-column: 1 / 1;
       grid-row: 1 / -1;
     }
   }
@@ -140,6 +141,7 @@ body {
     @include set-colors(colors.$primary-red);
 
     @include media.lg {
+      grid-column: 2 / 2;
       grid-row: 1;
     }
   }
@@ -148,6 +150,7 @@ body {
     @include set-colors(colors.$primary-orange);
 
     @include media.lg {
+      grid-column: 2 / 2;
       grid-row: 2;
     }
   }
@@ -156,6 +159,7 @@ body {
     @include set-colors(colors.$primary-blue);
 
     @include media.lg {
+      grid-column: 3 / 3;
       grid-row: 1 / -1;
     }
   }
