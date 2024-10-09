@@ -105,6 +105,17 @@ body {
   filter: drop-shadow(1px 3px 4px #5554);
   border-radius: fonts.rem(6px);
 
+  &.bg-quotation {
+    background-image: url('../images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: right fonts.rem(24px) top;
+    background-origin: border-box;
+
+    @include media.xl {
+      background-position: right fonts.rem(80px) top;
+    }
+  }
+
   &.violet {
     background-color: colors.$primary-moderate-violet;
     @include set-color(true);
