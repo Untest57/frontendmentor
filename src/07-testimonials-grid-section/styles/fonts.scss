@@ -12,6 +12,7 @@ $base-font-size: 13px;
 @mixin barlow($size: $base-font-size, $weight: 500) {
   font-family: 'Barlow Semi Condensed', system-ui;
   font-style: normal;
+  font-kerning: none;
 
   @include size-weight-style($size, $weight);
 }
