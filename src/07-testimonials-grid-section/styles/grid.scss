@@ -1,0 +1,25 @@
+@use 'media';
+
+.xl\:row-span-2 {
+  @include media.xl {
+    grid-row-end: span 2;
+  }
+}
+
+.xl\:col-span-2 {
+  @include media.xl {
+    grid-column-end: span 2;
+  }
+}
+
+.xl\:row-start-1 {
+  @include media.xl {
+    grid-row-start: 1;
+  }
+}
+
+.xl\:col-start-4 {
+  @include media.xl {
+    grid-column-start: 4;
+  }
+}

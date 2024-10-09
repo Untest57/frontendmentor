@@ -1,0 +1,31 @@
+@use 'sass:math';
+@use 'sass:list';
+
+$base-font-size: 13px;
+
+@mixin size-weight-style($size: $base-font-size, $weight: 400) {
+  font-size: rem($size);
+  font-weight: $weight;
+}
+
+// weight 500, 600
+@mixin barlow($size: $base-font-size, $weight: 500) {
+  font-family: 'Barlow Semi Condensed', system-ui;
+  font-style: normal;
+
+  @include size-weight-style($size, $weight);
+}
+
+@function rem($sizes) {
+  $rems: null;
+
+  @each $size in $sizes {
+    $rems: list.append(
+      $rems,
+      math.div($size, $base-font-size) * 1rem,
+      $separator: space
+    );
+  }
+
+  @return $rems;
+}
